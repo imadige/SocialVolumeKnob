@@ -21,6 +21,7 @@ possible extensions:
 
 Started implementation at music cities sounddiplomacy hackathon.
 
+![play-promo-image] (https://unsplash.com/search/radio?photo=16ad3Hx4_fU) by Alex Blăjan, CC0 1.0 Universal
 ![SoundDiplomace](assets/musiccitieslogo.jpg)
 
 Developed by ligi https://github.com/ligi
