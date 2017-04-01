@@ -18,7 +18,9 @@ class SetRemoveVolumeActivity : AppCompatActivity() {
 
         val okHttpClient = OkHttpClient.Builder().build()
 
-        croller.label = "REMOTE"
+        val token = intent.data.getQueryParameter("token")
+        croller.label ="Ligi"
+
         croller.labelSize = resources.getDimension(R.dimen.croller_label_size).toInt()
         croller.setOnProgressChangedListener {
             val asDouble = it.toDouble() / croller.max
@@ -29,7 +31,7 @@ class SetRemoveVolumeActivity : AppCompatActivity() {
 
                                 .header("Authorization", "key=AAAA8AjvQIc:APA91bExsE3Qn1ULeLZ8COAYDbzLX4p1rc08x6q8ooRTYPKraFy0vEPflavesGT6cbWaKOxucvKCMk9SoK6Yjv--kRJLMEGq3lSoAQ9Ce9alrHpPzEmjLk9aMfkoZlxLjWhs_v4ej-xp")
                                 .method("POST", RequestBody.create(MediaType.parse("application/json; charset=utf-8"),
-                                        "{\"registration_ids\":[\"evAbwqeCc2M:APA91bET5Cn_ekUtE-BfBkdRRB3TlWVgPNuJNp_xv4VU6C7EL4GWrgongnz6xGGOp14DUQWbGLY4-5o-MWFrOloXAIZK4fI4pLMooXPAlSHC-t0_4YXqejvj23Znj-QvH_kZ5V99PQGh\"],\"data\":{\"volume\":\"$asDouble\"}}"))
+                                        "{\"registration_ids\":[\"$token\"],\"data\":{\"volume\":\"$asDouble\"}}"))
                                 .build()
                 ).execute().body().string()
 

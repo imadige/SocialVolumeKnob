@@ -11,6 +11,7 @@ import android.support.v7.app.AppCompatActivity
 import android.util.Base64
 import android.webkit.WebView
 import android.webkit.WebViewClient
+import com.google.firebase.iid.FirebaseInstanceId
 import kotlinx.android.synthetic.main.activity_intro.*
 import net.glxn.qrgen.android.QRCode
 import java.io.ByteArrayOutputStream
@@ -56,16 +57,16 @@ class IntroActivity : AppCompatActivity() {
         })
 
         val bos = ByteArrayOutputStream()
-        val qrCode = QRCode.from("https://t2m7u.app.goo.gl/?link=https://socialvolumeknob.firebaseapp.com/&apn=org.ligi.socialvolumeknob")
+        val qrCode = QRCode.from("https://t2m7u.app.goo.gl/?link=https://socialvolumeknob.firebaseapp.com?token=${FirebaseInstanceId.getInstance().getToken()}&user=bar&apn=org.ligi.socialvolumeknob")
         qrCode.bitmap().compress(Bitmap.CompressFormat.PNG, 100, bos)
         bos.close()
         val encode = Base64.encodeToString(bos.toByteArray(), Base64.DEFAULT)
 
         // Generate an HTML document on the fly:
         val htmlDocument = "<html><body><h1>Social Volume Knob</h1>" +
-                "<p><font size='24'>With this qr-code you can adjust the volume of user: ${identifier_edittext.text}<br/><br/>" +
+                "<p><font size='21'>With this qr-code you can adjust the volume of user: ${identifier_edittext.text}<br/><br/>" +
                 "Scan the qr-code, install the app, adjust the volume, enjoy your time</font></p>" +
-                "<center><img width=\"66%\" src=\"data:image/png;base64,$encode\"/></center></body></html>"
+                "<center><img width=\"80%\" src=\"data:image/png;base64,$encode\"/></center></body></html>"
         webView.loadDataWithBaseURL(null, htmlDocument, "text/HTML", "UTF-8", null)
 
         mWebView = webView
