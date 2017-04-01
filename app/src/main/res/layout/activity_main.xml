@@ -7,6 +7,7 @@
         tools:context="org.ligi.socialvolumeknob.MainActivity">
 
     <com.sdsmdg.harjot.crollerTest.Croller
+            android:id="@+id/croller"
             android:padding="56dp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"/>
