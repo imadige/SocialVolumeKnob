@@ -34,6 +34,9 @@ dependencies {
     compile 'com.google.firebase:firebase-messaging:10.0.1'
     compile "org.jetbrains.kotlin:kotlin-stdlib:$kotlin_version"
 
+    compile "com.chibatching.kotpref:kotpref:$kotpref_version"
+    compile "com.chibatching.kotpref:initializer:$kotpref_version"
+
     testCompile 'junit:junit:4.12'
 }
 

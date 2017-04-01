@@ -1,5 +1,7 @@
 package org.ligi.socialvolumeknob
 
-object State {
-    var identifier : String?=null
+import com.chibatching.kotpref.KotprefModel
+
+object State : KotprefModel() {
+    var identifier by nullableStringPref()
 }

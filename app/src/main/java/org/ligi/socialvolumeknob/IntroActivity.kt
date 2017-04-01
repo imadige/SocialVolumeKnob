@@ -21,7 +21,7 @@ class IntroActivity : AppCompatActivity() {
                         .setMessage("You need to enter a identifier")
                         .show()
             } else {
-                State.identifier=text.toString()
+                State.identifier = text.toString()
                 startActivity(Intent(this, MainActivity::class.java))
             }
         }
