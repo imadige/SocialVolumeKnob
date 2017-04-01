@@ -18,7 +18,18 @@
                 <category android:name="android.intent.category.LAUNCHER"/>
             </intent-filter>
         </activity>
-        <activity android:name=".SetRemoveVolumeActivity"/>
+        <activity android:name=".SetRemoveVolumeActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+
+                <data
+                        android:host="socialvolumeknob.firebaseapp.com"
+                        android:scheme="https"/>
+            </intent-filter>
+        </activity>
         <activity android:name=".IntroActivity"/>
 
         <activity android:name=".MainActivity"/>
