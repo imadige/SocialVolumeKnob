@@ -23,6 +23,13 @@ class MainActivity : AppCompatActivity() {
 
         croller.label = State.identifier
         croller.labelSize = resources.getDimension(R.dimen.croller_label_size).toInt()
+
+        val relevantStream = AudioManager.STREAM_MUSIC
+        val maxVolume = audioManager.getStreamMaxVolume(relevantStream)
+        val currentVolume = audioManager.getStreamVolume(relevantStream)
+
+        croller.progress = ((currentVolume.toDouble()/maxVolume)*croller.max).toInt()
+
         croller.setOnProgressChangedListener {
             setVolume(it.toDouble() / croller.max)
         }
