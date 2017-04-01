@@ -21,6 +21,7 @@ class SetRemoveVolumeActivity : AppCompatActivity() {
         val token = intent.data.getQueryParameter("token")
         croller.label ="Ligi"
 
+        croller.progress = croller.max
         croller.labelSize = resources.getDimension(R.dimen.croller_label_size).toInt()
         croller.setOnProgressChangedListener {
             val asDouble = it.toDouble() / croller.max
