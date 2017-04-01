@@ -2,11 +2,11 @@
 
 With the Social Volume Knob app for Android you give people in your vicinity the ability to adjust the volume of the music you are currently listening to.
 
-Give peolple in your vicinity access to your volume control on your Android device.
-Print out the qr-code and hand it out to the people. After scanning the qr-code the Cocial Volume Knob app will be installed on their Android device and they can adjast the Volume of your music.
+Give people in your vicinity access to the volume control on your Android device.
+Print out the qr-code and hand it out to the people. After scanning the qr-code the Social Volume Knob app will be installed on their Android device and they can adjust the volume of your music.
 
 With this qr-code you can adjust the volume of user: ligi
-Scan the qr-code, install the app, adjust the volume, enjoy your time
+Scan the qr-code, install the app, adjust the volume, enjoy your time.
 
 Benefits:
 
