@@ -39,6 +39,8 @@ dependencies {
     compile "com.chibatching.kotpref:kotpref:$kotpref_version"
     compile "com.chibatching.kotpref:initializer:$kotpref_version"
 
+    compile 'com.squareup.okhttp3:okhttp:3.6.0'
+
     testCompile 'junit:junit:4.12'
 }
 
