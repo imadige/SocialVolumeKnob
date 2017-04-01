@@ -16,7 +16,12 @@ class MainActivity : AppCompatActivity() {
         val audioManager = getSystemService(Context.AUDIO_SERVICE) as AudioManager
 
         croller.setOnProgressChangedListener {
-            audioManager.setStreamVolume(AudioManager.STREAM_MUSIC, it, AudioManager.FLAG_SHOW_UI)
+
+            val relevantStream = AudioManager.STREAM_MUSIC
+            val maxVolume = audioManager.getStreamMaxVolume(relevantStream)
+            val newVolume = (maxVolume * (it.toDouble()/croller.max)).toInt()
+
+            audioManager.setStreamVolume(relevantStream, newVolume, AudioManager.FLAG_SHOW_UI)
         }
 
     }
