@@ -1,11 +1,12 @@
-The idea is that you give people surrounding you a possibility to control the loudness of your music.
+With the Social Volume Knob app for Android you give people in your apartment building the ability to decrease or increase the volume of music you are currently listening to on your Android device.
 
 This could bring us the following benefits:
 
- * happy music loving citizens that can turn up the music if nobody is negatively affected
- * happy neighbours that can enjoy silence when they want it
- * interesting data (currently it is hard to predict how often you are able to turn up the music without affecting others in a negative way)
+ * happy music listeners that can turn up the music if nobody is negatively affected
+ * happy neighbours that can enjoy a quiet environment when they want to
+ * useful data (currently it is hard to predict when you are able to turn up the music without affecting your neighbours in a negative way)
 
 possible extensions:
- - equalizer access (bass travels longer)
+ - equalizer access (bass travels further)
  - authorization by tapping the beat you hear ;-)
+ - authorization by automatically recognizing the beat you hear
