@@ -46,6 +46,7 @@
 
         <android.support.design.widget.TextInputEditText
                 android:hint="Your identifier"
+                android:lines="1"
                 android:id="@+id/identifier_edittext"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"/>
