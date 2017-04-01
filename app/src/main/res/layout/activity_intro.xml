@@ -12,7 +12,7 @@
               android:layout_height="wrap_content"
               android:id="@+id/intro_text"
               android:fontFamily="sans-serif"
-              android:text="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
+              android:text="With the Social Volume Knob app for Android you give people in your vicinity the ability to adjust the volume of the music you are currently listening to."
               android:padding="32dp"
     />
 
@@ -20,7 +20,8 @@
             android:id="@+id/print_button"
             android:layout_below="@id/intro_text"
             android:layout_centerHorizontal="true"
-            android:layout_width="wrap_content" android:layout_height="wrap_content">
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
     <ImageView
 
             android:src="@drawable/ic_print"

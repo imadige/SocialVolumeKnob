@@ -1,6 +1,6 @@
 ![Android app on Google Play](app/src/main/res/web_hi_res_512.png)
 
-With the Social Volume Knob app for Android you give people in your apartment building the ability to decrease or increase the volume of music you are currently listening to.
+With the Social Volume Knob app for Android you give people in your vicinity the ability to adjust the volume of the music you are currently listening to.
 
 Give peolple in your vicinity access to your volume control on your Android device.
 Print out the qr-code and hand it out to the people. After scanning the qr-code the Cocial Volume Knob app will be installed on their Android device and they can adjast the Volume of your music.
