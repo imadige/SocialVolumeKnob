@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "1030942048391",
+    "firebase_url": "https://socialvolumeknob.firebaseio.com",
+    "project_id": "socialvolumeknob",
+    "storage_bucket": "socialvolumeknob.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1030942048391:android:d1d85d87fddf6cee",
+        "android_client_info": {
+          "package_name": "org.ligi.socialvolumeknob"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1030942048391-edu4fft81717jssc2nvvpm9pk7j8ksmb.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "org.ligi.socialvolumeknob",
+            "certificate_hash": "103f36f5d4585dd675125232cbbf93ad934f17b0"
+          }
+        },
+        {
+          "client_id": "1030942048391-lj6k7vbq46hieikk4ipaku830qtfe9fj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDbM9azSTfjSa-4hFWYEo27HlypykXio-I"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1030942048391-lj6k7vbq46hieikk4ipaku830qtfe9fj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
