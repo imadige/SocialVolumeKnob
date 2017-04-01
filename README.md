@@ -1,4 +1,4 @@
-![Android app on Google Play](app/src/main/res/web_hi_res_512.png)
+![Logo](app/src/main/res/web_hi_res_512.png)
 
 With the Social Volume Knob app for Android you give people in your vicinity the ability to adjust the volume of the music you are currently listening to.
 
@@ -7,11 +7,6 @@ Print out the qr-code and hand it out to the people. After scanning the qr-code 
 
 With this qr-code you can adjust the volume of user: ligi
 Scan the qr-code, install the app, adjust the volume, enjoy your time
-
-Started implementation at music cities sounddiplomacy hackathon.
-
-Developed by ligi https://github.com/ligi
-Design by Dierk Eichel https://github.com/deichel
 
 Benefits:
 
@@ -23,3 +18,10 @@ possible extensions:
  - equalizer access (bass travels further)
  - authorization by tapping the beat you hear ;-)
  - authorization by automatically recognizing the beat you hear
+
+Started implementation at music cities sounddiplomacy hackathon.
+
+![SoundDiplomace](assets/musiccitieslogo.jpg)
+
+Developed by ligi https://github.com/ligi
+Design by Dierk Eichel https://github.com/deichel
