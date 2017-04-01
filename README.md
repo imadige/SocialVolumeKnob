@@ -1,6 +1,8 @@
 With the Social Volume Knob app for Android you give people in your apartment building the ability to decrease or increase the volume of music you are currently listening to on your Android device.
+Developed by ligi https://github.com/ligi
+Design by Dierk Eichel https://github.com/deichel
 
-This could bring us the following benefits:
+Benefits:
 
  * happy music listeners that can turn up the music if nobody is negatively affected
  * happy neighbours that can enjoy a quiet environment when they want to
